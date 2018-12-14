@@ -15,8 +15,8 @@ I used InceptionV3 CNN deep neural network. I used 'transfer learning method' [ 
 Following are the results obtained with CNN.
 
 ![Alt text](disc_macula_results/img1.png?raw=true "Title")
-![Alt text](disc_macula_results/img2.png?raw=true "Title")
-![Alt text](disc_macula_results/img3.png?raw=true "Title")
-![Alt text](disc_macula_results/img4.png?raw=true "Title")!
-[Alt text](disc_macula_results/img5.png?raw=true "Title")
+![Alt text](disc_macula_results/img14.png?raw=true "Title")
+![Alt text](disc_macula_results/img11.png?raw=true "Title")
+![Alt text](disc_macula_results/img12.png?raw=true "Title")!
+[Alt text](disc_macula_results/img13.png?raw=true "Title")
 
