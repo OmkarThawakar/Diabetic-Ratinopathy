@@ -9,7 +9,12 @@ People with diabetes can have an eye disease known as diabetic retinopathy. This
 
 # Our Approach 
 
-I used InceptionV3 CNN deep neural network. I used 'transfer learning method' [ in this method the neural net can use the past experience of training to learn new things more efficiently when trained again for doing other tasks] and modified its final layers and then trained the CNN with the training images captured by fundus camera from Kaggle dataset to detect the optical disk and macula and then classify diseased and non-diseased eye images in the diabetic retinopathy medical images (work was done in center of excellence for image and signal processing at my college). The results were really excellent. The error rate was less than 4-5%
+FasterRNN_NAS and InceptionV3 CNN Deep Neural Network Architecture are used for the detection and classification of vital parts from the human eye. The 'Transfer Learning Method' [ In this method the neural net can use the past training experience to learn new things efficiently when trained again for doing analogically similar tasks] and modified its final layers [Desicion layers] and then trained the CNN with the training images captured by fundus camera from Kaggle dataset to detect the optical disk and macula and then classify diseased and non-diseased eye images in the diabetic retinopathy medical images (work was done in Center of Excellence for Image and Signal Processing at SGGS). The results were promising. The detection error rate was less than 4-5%.
+
+New CNN architecture is making old Image processing algorithms absolete. The amount of human labour required for developing just a feature extraction method was huge compared to the current method. The CNN can be used in detection of specific components from biomedical images with ease. Some architecture like NASNet are being developed by Google AUTOML project with which no human developed algorithm can compete.
+
+
+
 
 # Our Results
 Following are the results obtained with CNN.
@@ -18,5 +23,17 @@ Following are the results obtained with CNN.
 ![Alt text](disc_macula_results/img14.png?raw=true "Title")
 ![Alt text](disc_macula_results/img11.png?raw=true "Title")
 ![Alt text](disc_macula_results/img12.png?raw=true "Title")!
-[Alt text](disc_macula_results/img13.png?raw=true "Title")
+
+
+
+CNN Training Info: PC : Workstation Xeon Processor, 16GB GPU, Xenial Xerus Ubuntu OS.
+Dataset: Kaggle Ratinal Image dataset for Diabetic Retinopathy.
+
+
+
+
+
+
+
+
 
